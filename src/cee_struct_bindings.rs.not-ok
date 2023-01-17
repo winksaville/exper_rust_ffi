@@ -1,0 +1,16 @@
+//use cty::c_int;
+
+#[derive(Debug)]
+#[repr(C)]
+pub struct CeeStruct {
+    pub x: c_int,
+    pub y: c_int,
+}
+
+extern "C" {
+    pub fn cee_struct_init(
+        x: c_int,
+        y: c_int,
+        cs: *mut CeeStruct
+    );
+}

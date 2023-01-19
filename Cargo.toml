@@ -1,6 +1,8 @@
 [workspace]
 members = [
     "cee_struct",
+    #"cb_channel",
+    "omnibus",
 ]
 
 [workspace.package]

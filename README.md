@@ -4,6 +4,7 @@ This is a workspace that will have several packages as
 I experiment with rust FFI.
 
  * [cee_struct](cee_struct/README.md)
+ * [omnibus](omnibus/README.md)
 
 ## License
 

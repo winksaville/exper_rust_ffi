@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "cee_struct",
+    "c_lib_in_rust",
 ]
 
 [workspace.package]
